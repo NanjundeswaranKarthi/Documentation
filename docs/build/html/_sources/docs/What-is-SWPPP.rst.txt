@@ -1,0 +1,115 @@
+
+.. _what-is-swppp:
+
+
+SWPPP Creation Guide – Simple & Complete Overview
+=================================================
+
+Introduction
+------------
+
+**What is SWPPP?**  
+A Storm Water Pollution Prevention Plan (SWPPP) is a legally required document that outlines how construction sites will prevent stormwater pollution.
+
+**Why SWPPP Preparation is Complex?**
+
+- **Fixed Rules:** Legal and environmental content stays the same.  
+- **Variable Data:** Project details (like name, address) change with each project.  
+- **Big Documents:** SWPPPs are long and include both static and dynamic info.  
+- **Manual Edits:** Changing details in multiple places is time-consuming and error-prone.  
+
+**How SWPPPly Simplifies It:**  
+SWPPPly uses a modular, UI-driven tool to simplify and speed up SWPPP creation by combining:
+
+- Reusable components  
+- Clear roles  
+- Automated document generation  
+
+.. Who Is This For?
+.. ----------------
+
+.. +---------------------+------------------------------------------------+
+.. | Role                | Responsibility                                 |
+.. +=====================+================================================+
+.. | Subject Matter      | Creates blueprints (static content) and flags  |
+.. | Expert (SME)        | dynamic fields                                 |
+.. +---------------------+------------------------------------------------+
+.. | Business Analyst    | Designs screen metadata                        |
+.. | (BA)                |                                                |
+.. +---------------------+------------------------------------------------+
+.. | Developer           | Builds and renders input screens               |
+.. +---------------------+------------------------------------------------+
+.. | Template Designer   | Maps screens to document data                  |
+.. +---------------------+------------------------------------------------+
+.. | End User            | Fills project data using a guided interface    |
+.. +---------------------+------------------------------------------------+
+
+
+.. 7 Building Blocks to Understand
+.. -------------------------------
+
+.. 1. Document Nature – Static vs Dynamic Text
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. **Static Text**
+
+.. - Written by the Subject Matter Expert (SME).  
+.. - Consists of fixed content such as legal terms, environmental guidelines, and general site instructions.  
+.. - Created inside a Blueprint Designer.  
+.. - SME types content and identifies parts like *Project Name* or *Start Date* as dynamic, turning them into fields in a **Data Dictionary**.  
+
+.. Why Important?  
+.. Static content provides structure for templates. The blueprint acts like a skeleton.
+
+.. **Dynamic Text**
+
+.. - Provided by end users (Qualified SWPPP Practitioners).  
+.. - Collected through a friendly **Data Collector UI**.  
+.. - Driven by screens that gather data like address, contact info, or site specifics.  
+
+.. ➡️ Static = stable  
+.. ➡️ Dynamic = changes per project  
+
+.. 2. Data Dictionary – The Brain (Reusable Data Points)
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. **What it is:**  
+.. A centralized list of all dynamic fields (e.g., Project Name, Address, Risk Level). Created by SME.  
+
+.. **Used in:**  
+.. → Blueprints (placeholders)  
+.. → Screens (input mapping)  
+
+.. **Purpose:**  
+.. Acts as a bridge between static and dynamic content.  
+
+.. **Key Features:**  
+.. - No dependency – it can be created first.  
+.. - Central repository for dynamic fields.  
+.. - Supports String, Integer, Date, Object.  
+
+.. ...
+
+.. (➡️ Continue same way for points 3–7)
+
+.. How It All Works – End-to-End Flow
+.. ----------------------------------
+
+.. 1. SME defines dynamic fields in Data Dictionary.  
+.. 2. SME creates a blueprint with static + dynamic placeholders.  
+.. 3. BA designs screen structure.  
+.. 4. Developer builds screens.  
+.. 5. Template Designer arranges flow + mapping.  
+.. 6. End User fills data in the Collector.  
+.. 7. Final document exported (PDF/DOCX).  
+
+.. ✅ Why This System Is Powerful
+.. ------------------------------
+
+.. - **Modular** → Easy to reuse & scale  
+.. - **Role-based** → Clear ownership  
+.. - **Automated** → Faster delivery  
+.. - **Accurate** → Reduces errors  
+.. - **Flexible** → Works for any project/state
+
+

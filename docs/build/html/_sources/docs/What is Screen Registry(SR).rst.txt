@@ -1,0 +1,29 @@
+.. _screen-registry:
+
+Screen Registry (SR)
+====================
+
+The Screen Registry is like the **form on the screen** where **Sophia** will type in answers.  
+
+Why is it needed?
+-----------------
+- The Screen Registry defines these forms — what fields appear, their type (text, dropdown, date), and validations.  
+- Without screens, Sophia has **nowhere to type her project details**.  
+
+✅ Purpose
+----------
+- Provides the **user interface** for data entry.  
+- Ensures fields align with the **Data Dictionary**.  
+- Adds **validations** to ensure correct data entry.  
+
+🔗 Dependency
+-------------
+- Depends on the **Data Dictionary (DD)** to know which fields to include.  
+- Works together with the **Blueprint (BP)** for mapping placeholders to inputs.  
+
+What happens:
+-------------
+1. **Jackie** creates the screens.  
+2. **Jackie** adds fields that match **Andy’s Data Dictionary**.  
+
+.. seealso::
